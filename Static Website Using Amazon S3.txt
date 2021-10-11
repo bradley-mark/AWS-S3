@@ -42,3 +42,18 @@ Bucket policy > Edit
 }
 
 Bucket Access displays <Public> <Publically accessible>
+__
+
+Adding a Domain name
+
+> Route 53
+
+Hosted Zones
+Create hosted zone - Public Hosted Zone
+Create Record - Record Name "markbradley.cloud" - Type A - Alias Yes - Routing Policy Simple
+Create Record - Record Name "www.markbradley.cloud" - Type A - Alias Yes - Routing Policy Simple
+
+Login Google Domains
+Select Domain and select Use Custom Name Servers
+Add Name servers listed in Route 53 - Hosted zone details
+Save
