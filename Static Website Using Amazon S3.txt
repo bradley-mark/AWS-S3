@@ -1,23 +1,29 @@
 Static Website Using Amazon S3
 
 http://markbradleywebsite.s3-website-us-east-1.amazonaws.com/
+http://www.markbradley.cloud
 
-S3
-Create bucket
-Bucket name: markbradleywebsite
+Amazon S3
+
+>Create bucket
+Bucket name: www.markbradley.cloud
 AWS Region: US East (N. Virginia) US-east-1
-Block Public Access settings for this bucket - Block all public access - turn off block all public access
+Block Public Access settings for this bucket > Unselect - Block all public access - turns off block all public access
 Leave all other defaults
+
 > Objects
 Upload > Add Files
 error.html
 index.html
 Standard storage class
+
 > Properties
-Static website hosting > Enabled
-Enter index and error document files
+Static website hosting > Enable
+Host a static website
+Enter index.html and error.html S3 files
 Bucket website endpoint
-http://markbradleywebsite.s3-website-us-east-1.amazonaws.com/
+http://www.markbradley.cloud.s3-website-us-east-1.amazonaws.com
+
 > Permissions
 
 Bucket policy > Edit
@@ -30,8 +36,9 @@ Bucket policy > Edit
             "Effect": "Allow",
             "Principal": "*",
             "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::markbradleywebsite/*"
+            "Resource": "arn:aws:s3:::www.markbradley.cloud/*"
         }
     ]
 }
 
+Bucket Access displays <Public> <Publically accessible>
