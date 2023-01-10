@@ -81,7 +81,7 @@ By default, Amazon S3 blocks public access to your account and buckets.
 2. Choose **Properties**
 3. View bottom of page - **Static website hosting** - **Bucket website endpoint**
 
-http://s3.markbradley.cloud.s3-website-us-east-1.amazonaws.com
+**http://s3.markbradley.cloud.s3-website-us-east-1.amazonaws.com**
 
 ![image](https://user-images.githubusercontent.com/91480603/211665812-ebc7df1a-91a7-4943-80ee-bdc9fee82473.png)
 
