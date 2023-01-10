@@ -57,3 +57,6 @@ Login Google Domains
 Select Domain and select Use Custom Name Servers
 Add Name servers listed in Route 53 - Hosted zone details
 Save
+
+Ref: https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html
+Ref: https://docs.aws.amazon.com/whitepapers/latest/build-static-websites-aws/use-amazon-s3-website-hosting-to-host-without-a-single-web-server.html
