@@ -1,6 +1,6 @@
 # Configuring a static website on Amazon S3
 
-Simple overview
+**Simple overview**
 
 ![image](https://user-images.githubusercontent.com/91480603/211607509-8806d29f-396a-418a-bf00-337ed41e6c09.png)
 
@@ -77,9 +77,9 @@ By default, Amazon S3 blocks public access to your account and buckets.
 
 # Test your website endpoint
 
-1. Select bucket
-2. Choose Properties
-3. View bottom of page - Static website hosting - Bucket website endpoint
+1. Select **bucket**
+2. Choose **Properties**
+3. View bottom of page - **Static website hosting** - **Bucket website endpoint**
 
 http://s3.markbradley.cloud.s3-website-us-east-1.amazonaws.com
 
