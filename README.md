@@ -18,7 +18,7 @@ In addition, by hosting with Amazon S3, the website is inherently highly availab
 
 # Create a bucket
 
-1. Sign in to the AWS Management Console and open the Amazon S3 console at https://console.aws.amazon.com/s3/
+1. Sign in to the AWS Management Console and open the Amazon S3 console at **https://console.aws.amazon.com/s3/**
 2. Choose **Create bucket**
 3. Enter the **Bucket name** (e.g. s3.markbradley.cloud)
 4. Choose the Region (US East (N.Virginia) us-east-1)
@@ -26,7 +26,7 @@ In addition, by hosting with Amazon S3, the website is inherently highly availab
 
 # Enable static website hosting
 
-1. Select bucket
+1. Select **bucket**
 2. Choose **Properties**
 3. Under **Static website hosting**, choose **Edit**
 4. Choose **Static website hosting**, choose **Enable**
@@ -40,38 +40,38 @@ In addition, by hosting with Amazon S3, the website is inherently highly availab
 # Edit Block Public Access settings
 By default, Amazon S3 blocks public access to your account and buckets.
 
-1. Choose Permissions
-2. Under Block public access (bucket settings), choose Edit
-3. Clear Block all public access, and choose Save changes
+1. Choose **Permissions**
+2. Under **Block public access (bucket settings)**, choose **Edit**
+3. Clear **Block all public access**, and choose **Save changes**
 4. Confirm the settings
 
 # Add a bucket policy that makes your bucket content publicly available
 
-1. Choose Permissions
-2. Under Bucket Policy, choose Edit
-3. To grant public read access for your website, copy the following bucket policy, and paste it in the Bucket policy editor
+1. Choose **Permissions**
+2. Under **Bucket Policy**, choose **Edit**
+3. To grant public read access for your website, copy the following bucket policy, and paste it in the **Bucket policy editor**
 
 ![image](https://user-images.githubusercontent.com/91480603/211653440-9ca96179-b81d-4fbb-a1ef-f36f331b3d2a.png)
 
-4. Choose Save changes
+4. Choose **Save changes**
 
 # Configure an index document
 
 1. Create an index.html file
-2. Select bucket
-3. Choose Objects
-4. Choose Upload
-5. Add files - index.html
-6. Choose Upload
+2. Select **bucket**
+3. Choose **Objects**
+4. Choose **Upload**
+5. **Add files** - index.html
+6. Choose **Upload**
 
 # Configure an error document
 
 1. Create an error.html file
-2. Select bucket
-3. Choose Objects
-4. Choose Upload
-5. Add files - error.html
-6. Choose Upload
+2. Select **bucket**
+3. Choose **Objects**
+4. Choose **Upload**
+5. **Add files** - error.html
+6. Choose **Upload**
 
 ![image](https://user-images.githubusercontent.com/91480603/211665290-e656fd18-57aa-4d69-a7a1-c5dce1d1d03b.png)
 
