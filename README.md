@@ -58,8 +58,33 @@ By default, Amazon S3 blocks public access to your account and buckets.
 # Configure an index document
 
 1. Create an index.html file
-2. 
+2. Select bucket
+3. Choose Objects
+4. Choose Upload
+5. Add files - index.html
+6. Choose Upload
 
+# Configure an error document
 
+1. Create an error.html file
+2. Select bucket
+3. Choose Objects
+4. Choose Upload
+5. Add files - error.html
+6. Choose Upload
+
+![image](https://user-images.githubusercontent.com/91480603/211665290-e656fd18-57aa-4d69-a7a1-c5dce1d1d03b.png)
+
+# Test your website endpoint
+
+1. Select bucket
+2. Choose Properties
+3. View bottom of page - Static website hosting - Bucket website endpoint
+
+http://s3.markbradley.cloud.s3-website-us-east-1.amazonaws.com
+
+![image](https://user-images.githubusercontent.com/91480603/211665812-ebc7df1a-91a7-4943-80ee-bdc9fee82473.png)
+
+Note: Amazon S3 does not support HTTPS access to the website. If you want to use HTTPS, you can use Amazon CloudFront to serve a static website hosted on Amazon S3.
 
 
