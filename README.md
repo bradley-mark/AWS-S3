@@ -2,7 +2,7 @@
 
 **Simple overview**
 
-![image](https://user-images.githubusercontent.com/91480603/211607509-8806d29f-396a-418a-bf00-337ed41e6c09.png)
+![image](https://user-images.githubusercontent.com/91480603/211679118-4873f50f-6c35-4a13-a2a3-9590976b0a4c.png)
 
 Amazon Simple Storage Service (Amazon S3) can host static websites without a need for a web server. 
 
