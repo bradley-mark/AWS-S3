@@ -51,7 +51,24 @@ By default, Amazon S3 blocks public access to your account and buckets.
 2. Under **Bucket Policy**, choose **Edit**
 3. To grant public read access for your website, copy the following bucket policy, and paste it in the **Bucket policy editor**
 
-![image](https://user-images.githubusercontent.com/91480603/211653440-9ca96179-b81d-4fbb-a1ef-f36f331b3d2a.png)
+```yaml
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::Bucket-Name/*"
+            ]
+        }
+    ]
+}
+```
 
 4. Choose **Save changes**
 
